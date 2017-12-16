@@ -1,4 +1,5 @@
-FROM nuveo/opencv:alpine-python2-base
+#FROM nuveo/opencv:alpine-python2-base
+FROM yuyou/alpine-python2-base
 
 ENV OPENCV_VERSION=3.3.0
 
