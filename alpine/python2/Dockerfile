@@ -1,4 +1,5 @@
-FROM python:3-alpine
+#FROM python:3-alpine
+FROM python:2.7.14-alpine3.6
 
 ENV CPUCOUNT 1
 RUN CPUCOUNT=$(cat /proc/cpuinfo | grep '^processor.*:' | wc -l)
